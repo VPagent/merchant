@@ -1,0 +1,28 @@
+
+
+
+
+.container{
+    max-width: 320px;
+    padding: 0 15px;
+    margin:0 auto;
+    position: relative;
+
+
+    @media screen and (min-width: 834px){
+        max-width: none;
+        width: 540px;
+        height: fit-content;
+        
+        margin-bottom: auto;
+        padding: 64px 40px;
+        background-color: white;
+        box-shadow: 0px 5px 20px rgba(108, 117, 139, 0.2);
+        border-radius: 8px;
+    }
+    @media screen and (min-width: 1440px){
+        width: 480px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}

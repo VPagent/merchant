@@ -1,0 +1,15 @@
+
+
+.loader{
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    transform: translate(-50%, -50%);
+    @media screen and (min-width: 834px){
+        right: 50%;
+        transform: none;
+    }
+    @media screen and (min-width: 1440px){
+        right: 40%;
+    }
+}

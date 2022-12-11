@@ -1,0 +1,71 @@
+
+
+
+
+@import "../../commonStyles/colors.scss";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  font-family: "Inter";
+  .icon{
+    display: block;
+
+    width: 80px;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 50%;
+    }
+  .iconDef {
+    margin-left: auto;
+    margin-right: auto;
+
+    color: rgb(58, 184, 58);
+  }
+  .title {
+    margin-top: 32px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--title-text-color);
+  }
+  .text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--main-text-color);
+  }
+  .btn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 100%;
+
+    background-color: var(--blue-color);
+    border-color: var(--blue-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .text_link{
+    margin-top: 16px;
+    
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--main-text-color);
+    &_click{
+      color: var(--blue-color);
+    }
+  }
+}

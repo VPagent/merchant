@@ -1,0 +1,27 @@
+@import '../../commonStyles/colors.scss';
+
+
+
+.title{
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--title-text-color);
+}
+.link_box{
+    display: flex;
+    margin-top: 30px;
+
+    & .link{
+        margin-right: 15px;
+        &:last-child{
+            margin-right: 0;
+        }
+        & .icon{
+            color: var(--blue-color);
+            transition: color 250ms ease-in-out;
+        }
+        &:hover .icon{
+            color: black;
+        }
+    }
+}

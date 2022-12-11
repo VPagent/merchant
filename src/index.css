@@ -1,0 +1,32 @@
+@import './commonStyles/colors.scss';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Inter',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+  
+}
+p{
+  margin: 0;
+}
+.App{
+  font-family: 'Inter';
+  color: var(--main-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  padding-bottom: 30px;
+  height: 100vh;
+}
+
+/* section{
+  padding: 24px 0;
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

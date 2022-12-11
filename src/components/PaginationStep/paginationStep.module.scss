@@ -1,0 +1,54 @@
+@import '../../commonStyles/colors.scss';
+
+.box{
+    margin-top: 16px;
+    margin-bottom: 32px;
+    .text{
+        margin: 0;
+        
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.5;
+        color: var(--main-text-color);
+    }
+    .pagination{
+        width: 100%;
+        height: 8px;
+        margin-top: 8px;
+        
+        border: 1px solid #C9D3E0;
+        border-radius: 4px;
+    }
+    .range{
+        height: 100%;
+        
+        background-color: #C9D3E0;
+        border-radius: 4px;
+
+    }
+    .controls{
+        width: 100%;
+        height: 18px;
+        margin-top: 8px;
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        border: none;
+        background-color: transparent;
+
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.5;
+        color: var(--pagination-btn-color);
+
+        &:disabled{
+            color: var(--placeholder-text-color);
+        }
+    }
+}

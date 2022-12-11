@@ -1,0 +1,38 @@
+@import '../../commonStyles/colors.scss';
+
+.sideBar{
+    display: flex;
+    flex-direction: column;
+
+    width: 568px;
+    height: 100vh;
+    padding: 0 102px 56px 102px;
+
+    background: linear-gradient(339.02deg, #0D3251 0%, #19476C 103.05%);
+    font-family: 'Eudoxus Sans';
+}
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    padding: 16px;
+
+    background-color: #134267;
+    border-radius: 8px;
+    color: var(--sideBar-footer-text-color);
+    &_title{
+        margin: 0;
+        margin-right: 16px;
+
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+    }
+    &_text{
+        margin: 0;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}

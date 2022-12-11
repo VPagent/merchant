@@ -1,0 +1,116 @@
+@import '../../commonStyles/colors.scss';
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    .title{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.2;
+        color: var(--title-text-color);
+        @media screen and (min-width: 1440px){
+            margin-top: 24px;
+        }
+    }
+    .text{
+        margin-top: 8px;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+
+    }
+    .list{
+        list-style: none;
+
+        margin-top: 32px;
+        margin-bottom: 0;
+        padding: 16px;
+        background-color: var(--input-bcg-color);
+        border-radius: 8px;
+
+        @media screen and (min-width: 1440px){
+            background-color: transparent;
+        }
+
+        &_Item{
+            position: relative;
+            padding-left: 32px;
+            margin-bottom: 16px;
+    
+            &:last-child{
+                margin-bottom: 0;
+            }
+    
+        }
+        &_icon{
+            position: absolute;
+            top: 4px;
+            left: 6px;
+    
+            color: var(--succes-color);
+        }
+        &_title{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.5;
+            color: var(--title-text-color);
+        }
+        &_text{
+            font-size: 12px;
+            line-height: 1.5;
+            letter-spacing: -0.01em;
+        }
+    }
+    .btn{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+        width: 100%;
+        margin-top: 32px;
+        padding: 0;
+
+        border-radius: 2px;
+        color: var(--google-btn-color);
+        border-color: var(--google-btn-color);
+        color: white;
+
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.5;
+
+        &_icon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 48px;
+            height: 48px;
+
+            background-color: white;
+            & .googleIcon{
+                width: 18px;
+                height: 18px;
+            }
+        }
+        &_text{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .linkBtn{
+        margin-top: 16px;
+        margin-left: auto;
+        margin-right: auto;
+
+        border: none;
+        background-color: transparent;
+        color: var(--pagination-btn-color);
+
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+}

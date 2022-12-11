@@ -1,0 +1,56 @@
+@import '../../commonStyles/colors.scss';
+
+.wrapper{
+    
+    @media screen and (min-width: 1440px){
+        display: flex;
+    }
+}
+.section{
+
+    @media screen and (min-width: 834px){
+        padding-top: 132px;
+        padding-bottom: 200px;
+        background-image: url('../../images/bcgImages/bcgTabletPort.png');
+        background-size: contain;
+        
+        @media (min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+            background-image: url('../../images/bcgImages/bcgTabletPort2x.png');
+        }
+
+    }
+    @media screen and (min-width: 1194px){
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-image: url('../../images/bcgImages/bcgTabletNormal.png');
+        
+        @media (min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+            background-image: url('../../images/bcgImages/bcgTabletNormal2x.png');
+        }
+    }
+    @media screen and (min-width: 1440px){
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding-top: 0;
+        padding-bottom: 0;
+        background-image: url('../../images/bcgImages/bcgDesktop.png');
+        
+        @media (min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+            background-image: url('../../images/bcgImages/bcgDesktop2x.png');
+        }
+
+    }
+}
+.shared{
+    height: 100vh;
+    padding-top: 30px;
+    @media screen and (min-width: 1440px){
+        height: auto;
+        padding-top: 0;
+    }
+
+}

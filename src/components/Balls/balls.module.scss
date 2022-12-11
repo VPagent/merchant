@@ -1,0 +1,24 @@
+@import '../../commonStyles/colors.scss';
+
+.list{
+    display: flex;
+    list-style: none;
+
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    &_item{
+        width: 8px;
+        height: 8px;
+        margin-left: 12px;
+
+        border-radius: 50%;
+        background-color: #134267;
+
+        &:first-child{
+            margin-left: 0;
+            background-color: var(--sideBar-footer-text-color);
+        }
+    }
+}

@@ -1,0 +1,18 @@
+
+
+.modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding-top: 112px;
+    @media screen and (min-width: 834px){
+        padding: 64px 40px;   
+        box-shadow: 0px 5px 20px rgba(108, 117, 139, 0.2);
+        border-radius: 8px;
+    }
+    @media screen and (min-width: 1440px){
+        transform: translateY(-50%);
+    }
+}

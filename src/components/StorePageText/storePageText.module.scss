@@ -1,0 +1,77 @@
+@import '../../commonStyles/colors.scss';
+
+
+.title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--title-text-color);
+    @media screen and (min-width: 1440px){
+        margin-top: 24px;
+    }
+}
+.list{
+    list-style: none;
+
+    padding: 16px;
+    margin-top: 32px;
+    background-color: var(--input-bcg-color);
+    border-radius: 8px;
+    @media screen and (min-width: 1440px){
+        background-color: transparent;
+        
+    }
+    &_item{
+        position: relative;
+        padding-left: 32px;
+        margin-bottom: 16px;
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+
+    }
+    &_icon{
+        position: absolute;
+        top: 4px;
+        left: 6px;
+
+        color: var(--succes-color);
+    }
+    &_title{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.5;
+        color: var(--title-text-color);
+    }
+    &_text{
+        font-size: 12px;
+        line-height: 1.5;
+        letter-spacing: -0.01em;
+    }
+}
+.controls{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 32px;
+    &_btn{
+        padding-top: 11px;
+        padding-bottom: 11px;
+        
+        background-color: var(--blue-color);
+        border-color: var(--blue-color);
+    }
+    &_linkBtn{
+
+        margin-top: 16px;
+        
+        border: none;
+        background-color: transparent;
+
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;  
+        color: var(--main-text-color);
+    }
+}

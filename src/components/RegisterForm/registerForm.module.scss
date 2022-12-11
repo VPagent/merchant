@@ -1,0 +1,61 @@
+@import '../../commonStyles/colors.scss';
+
+.form{
+    &_group{
+        position: relative;
+
+        & .iconWrapper{
+            position: absolute;
+            top: 40px;
+            right: 10px;
+        }
+
+    }
+    &_label{
+    
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.5;
+        margin: 0;
+
+        
+    }
+
+    &_input{
+        
+        margin-top: 8px;
+        margin-bottom: 24px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+
+        background-color: var(--input-bcg-color);
+        border: none;
+        border-radius: 4px;
+        outline: none;
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    &_createBtn{
+        width: 100%;
+        padding-top: 11px;
+        padding-bottom: 11px;
+
+        background-color: var(--blue-color);
+        border-color: var(--blue-color);
+
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.5;
+
+    }
+}
+.text{
+    margin-top: 16px;
+    text-align: center;
+    &_link{
+        color: var(--blue-color);
+    }
+}
