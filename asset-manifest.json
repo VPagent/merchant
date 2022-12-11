@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/merchant/static/css/main.08efb757.css",
-    "main.js": "/merchant/static/js/main.4b4d8f3b.js",
+    "main.js": "/merchant/static/js/main.4e94f3aa.js",
     "static/css/718.b682facc.chunk.css": "/merchant/static/css/718.b682facc.chunk.css",
     "static/js/718.a63bc179.chunk.js": "/merchant/static/js/718.a63bc179.chunk.js",
     "static/css/834.c765e896.chunk.css": "/merchant/static/css/834.c765e896.chunk.css",
@@ -24,7 +24,7 @@
     "static/media/bcgDesktop.png": "/merchant/static/media/bcgDesktop.825d10584d80d3cf3b08.png",
     "index.html": "/merchant/index.html",
     "main.08efb757.css.map": "/merchant/static/css/main.08efb757.css.map",
-    "main.4b4d8f3b.js.map": "/merchant/static/js/main.4b4d8f3b.js.map",
+    "main.4e94f3aa.js.map": "/merchant/static/js/main.4e94f3aa.js.map",
     "718.b682facc.chunk.css.map": "/merchant/static/css/718.b682facc.chunk.css.map",
     "718.a63bc179.chunk.js.map": "/merchant/static/js/718.a63bc179.chunk.js.map",
     "834.c765e896.chunk.css.map": "/merchant/static/css/834.c765e896.chunk.css.map",
@@ -42,6 +42,6 @@
   },
   "entrypoints": [
     "static/css/main.08efb757.css",
-    "static/js/main.4b4d8f3b.js"
+    "static/js/main.4e94f3aa.js"
   ]
 }
