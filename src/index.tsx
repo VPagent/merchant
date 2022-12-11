@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename='https://vpagent.github.io/'>
+    <BrowserRouter basename='/merchant/'>
     <App />
     </BrowserRouter>
   </React.StrictMode>
